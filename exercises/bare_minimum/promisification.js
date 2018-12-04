@@ -33,6 +33,7 @@ var getGitHubProfileAsync = function(user) {
       if (error){
         reject(error);
       } else {
+        // console.log('this is the data from getAsyc --> ', data);
         resolve(data);
       }
     });
@@ -92,6 +93,7 @@ var readFileAndMakeItFunnyAsync = (filePath) => {
 // Export these functions so we can test them and reuse them in later exercises
 module.exports = {
   getGitHubProfileAsync: getGitHubProfileAsync,
+  getGitHubProfile: getGitHubProfile,
   generateRandomTokenAsync: generateRandomTokenAsync,
   readFileAndMakeItFunnyAsync: readFileAndMakeItFunnyAsync
 };
