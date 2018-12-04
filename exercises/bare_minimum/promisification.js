@@ -27,7 +27,12 @@ var getGitHubProfile = function(user, callback) {
   });
 };
 
-var getGitHubProfileAsync; // TODO
+var getGitHubProfileAsync = function(user) {
+  return new Promise ((resolve, reject) => {
+
+  }); // TODO
+}
+  
 
 
 // (2) Asyncronous token generation
