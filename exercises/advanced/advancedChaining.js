@@ -25,6 +25,7 @@ var lib = require('../../lib/advancedChainingLib');
 // the `Predict on Public and Custom Models` scope
 
 var searchCommonConceptsFromGitHubProfiles = function (githubHandles) {
+  console.log(githubHandles);
 };
 
 // Export these functions so we can unit test them

@@ -16,6 +16,17 @@ var Promise = require('bluebird');
 
 var promisify = function(nodeStyleFn) {
  // TODO
+  // return () => {
+  //   return new Promise ((resolve, reject) => {
+  //     nodeStyleFn((error)=>{
+  //       if (error) {
+  //         reject(error);
+  //       } else {
+  //         resolve(...arguments);
+  //       }
+  //     })
+  //   });
+  // };
 };
 
 
